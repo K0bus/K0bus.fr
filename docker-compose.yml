@@ -5,8 +5,6 @@ services:
       dockerfile: Dockerfile
     container_name: k0bus-portfolio
     restart: unless-stopped
-    ports:
-      - "${PORT:-8080}:80"
     environment:
       - NODE_ENV=production
     networks:
@@ -15,13 +13,13 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=proxy"
-      - "traefik.http.routers.portfolio.rule=Host(`k0bus.${DOMAIN}`)"
+      - "traefik.http.routers.portfolio.rule=Host(`k0bus.fr`)"
       - "traefik.http.routers.portfolio.entrypoints=https"
       - "traefik.http.routers.portfolio.tls.certresolver=letsencrypt"
       - "traefik.http.services.portfolio.loadbalancer.server.port=80"
       - "folder.view3=03-Applications"
       - "net.unraid.docker.icon=https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/png/portfolio.png"
-      - "net.unraid.docker.webui=https://k0bus.${DOMAIN}"
+      - "net.unraid.docker.webui=https://k0bus.fr"
       - "arcane.project=portfolio"
       - "arcane.description=Static Portfolio Vue 3 + Vite + Tailwind"
 
