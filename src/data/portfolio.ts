@@ -201,7 +201,7 @@ export const portfolioData: PortfolioData = {
       description: "Plateforme d'analyse économique complète du marché d'Albion Online (calculateur d'arbres de craft, routes marchandes et optimisation de profit en temps réel).",
       tags: ["Nuxt 3", "Nitro", "Pinia", "PostgreSQL", "Prisma v7", "Redis", "BullMQ"],
       githubUrl: "https://github.com/K0bus/ao-silvermind",
-      image: "/silvermind-logo.png",
+      image: "/app_banner/aosilvermind.png",
       featured: true,
       status: "Terminé",
       pastelTagColor: "lavender"
@@ -212,7 +212,7 @@ export const portfolioData: PortfolioData = {
       description: "Dashboard complet pour NAS intégrant un Media Center ainsi que la détection et le nettoyage automatique de fichiers et torrents orphelins.",
       tags: ["Vue 3", "Node.js", "Docker API", "NAS Arcane"],
       githubUrl: "https://github.com/K0bus/kBoard",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800",
+      image: "/app_banner/kboard.png",
       featured: true,
       status: "En développement",
       pastelTagColor: "cyan"
@@ -235,7 +235,7 @@ export const portfolioData: PortfolioData = {
       tags: ["Vue 3", "TypeScript", "Tailwind CSS", "Docker Arcane"],
       githubUrl: "https://github.com/K0bus/K0bus.fr",
       demoUrl: "https://k0bus.fr",
-      image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&q=80&w=800",
+      image: "/app_banner/k0busfr.png",
       featured: true,
       status: "Terminé",
       pastelTagColor: "lavender"
