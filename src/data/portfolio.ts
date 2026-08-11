@@ -180,7 +180,7 @@ export const portfolioData: PortfolioData = {
       longDescription: "FeedCraft collecte automatiquement les news et patch notes de jeux vidéo (Steam, Epic Games, flux RSS), les traduit et les résume grâce à Google Gemini 2.5 Flash, puis les distribue sous forme d'embeds Discord personnalisés avec système de cache PostgreSQL/Prisma.",
       tags: ["Nuxt 3", "Fastify", "BullMQ", "Gemini 2.5 Flash", "PostgreSQL 16", "Prisma 5", "Discord.js v14", "Docker"],
       githubUrl: "https://github.com/K0bus/feedcraft",
-      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
+      image: "/app_banner/feedcraft.png",
       featured: true,
       status: "Terminé",
       pastelTagColor: "mint",
@@ -223,7 +223,7 @@ export const portfolioData: PortfolioData = {
       description: "Outil de gestion de production permettant la régulation et la transmission paramétrable des demandes de pauses au sein d'un call center.",
       tags: ["Vue.js", "Node.js", "Express", "PostgreSQL"],
       githubUrl: "https://github.com/K0bus/MyBreakify",
-      image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=800",
+      image: "/app_banner/mybreakify.png",
       featured: true,
       status: "Terminé",
       pastelTagColor: "rose"
@@ -246,7 +246,7 @@ export const portfolioData: PortfolioData = {
       description: "Plugin Java haute performance pour serveurs SpigotMC / Paper sécurisant et encadrant l'utilisation du mode Créatif sur Minecraft.",
       tags: ["Java", "SpigotMC API", "Paper", "Security"],
       githubUrl: "https://github.com/K0bus/CreativeManager",
-      image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&q=80&w=800",
+      image: "/app_banner/creativemanager.png",
       featured: true,
       status: "Terminé",
       pastelTagColor: "mint"
@@ -257,7 +257,7 @@ export const portfolioData: PortfolioData = {
       description: "Bot Discord complet assurant l'administration, la modération, la gestion des membres, les rôles automatisés et un système de tickets.",
       tags: ["Node.js", "Discord.js", "TypeScript", "MongoDB"],
       githubUrl: "https://github.com/K0bus/Koby",
-      image: "https://images.unsplash.com/photo-1614680376593-902f749f7b6d?auto=format&fit=crop&q=80&w=800",
+      image: "/app_banner/koby.png",
       featured: true,
       status: "Terminé",
       pastelTagColor: "cyan"
