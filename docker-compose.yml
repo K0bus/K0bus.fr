@@ -1,8 +1,6 @@
 services:
   portfolio:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: k0bus/k0bus-portfolio:latest
     container_name: k0bus-portfolio
     restart: unless-stopped
     environment:
